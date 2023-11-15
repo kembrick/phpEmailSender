@@ -2,6 +2,6 @@
 Simple code to send email with on fly edited picture.
 
 There are three variants: 
-* embedded picture (img src with inline base64)
 * attached picture
+* embedded picture (img src with inlined base64)
 * embedded related picture
