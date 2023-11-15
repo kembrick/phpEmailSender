@@ -20,7 +20,7 @@ if (DEBUG) {
     $recipientEmail = 'recipientr@email.com';
     $subject  = 'Subject';
     $message  = "<p>Code number: <b>$cardCode</b></p>";
-    $message .= "\r\n<img src='data:image/x-icon;base64,$imageData'>\r\n";
+    $message .= "\r\n<img src='data:image/png;base64,$imageData'>\r\n";
     $headers  = "MIME-Version: 1.0\r\n";
     $headers .= "From:" . $fromEmail . "\r\n";
     $headers .= "Content-Type: text/html; charset=utf-8\r\n";
